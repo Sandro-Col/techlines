@@ -1,0 +1,29 @@
+
+sandr@SMRINSPIRON5406 MINGW64 ~/dev/Projects/Personal/Canada/techlines
+$ npm install express-async-handler jsonwebtoken jwt-decode mongoose nodemailer stripe
+
+LIST FILES AND FOLDERS AT "CLIENT"
+sandr@SMRINSPIRON5406 MINGW64 ~/dev/Projects/Personal/Canada/techlines/client (master)
+$ ls -la
+
+REMOVE ".git" IF IT EXISTS AT "client" FOLDER
+sandr@SMRINSPIRON5406 MINGW64 ~/dev/Projects/Personal/Canada/techlines/client (master)
+$ rm -rf .git
+
+
+MOVE FILE .gitignore FROM "client" FOLDER TO MAIN FOLDER ("techlines") MANUALLY (DRAG AND DROP VIA VS CODE)
+
+
+
+CREATE GIT INIT AT MAIN FOLDER ("techlines")
+sandr@SMRINSPIRON5406 MINGW64 ~/dev/Projects/Personal/Canada/techlines
+$ git init
+
+
+INSTALL DEPENDENCIES AT "client" FOLDER
+sandr@SMRINSPIRON5406 MINGW64 ~/dev/Projects/Personal/Canada/techlines/client (master)
+$ npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+
+INSTALL DEPENDENCIES AT "client" FOLDER
+sandr@SMRINSPIRON5406 MINGW64 ~/dev/Projects/Personal/Canada/techlines/client (master)
+$ npm i @reduxjs/toolkit axios react-router-dom react-redux formik yup react-icons jwt-decode
